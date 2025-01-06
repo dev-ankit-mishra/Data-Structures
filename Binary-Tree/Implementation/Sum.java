@@ -1,7 +1,7 @@
 package Implementation;
 
 public class Sum {
-    public int sum(Node node){
+    public int sum(TreeNode node){
         if(node==null){
             return 0;
         }

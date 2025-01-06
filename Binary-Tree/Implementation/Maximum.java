@@ -1,7 +1,7 @@
 package Implementation;
 
 public class Maximum {
-    public int max(Node node){
+    public int max(TreeNode node){
         if(node==null){
             return Integer.MIN_VALUE;
         }

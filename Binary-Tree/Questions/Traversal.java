@@ -1,9 +1,9 @@
 package Questions;
 
-import Implementation.Node;
+import Implementation.TreeNode;
 
 public class Traversal {
-    public void preorder(Node node){
+    public void preorder(TreeNode node){
         if(node==null){
             return;
         }
@@ -11,7 +11,7 @@ public class Traversal {
         preorder(node.left);
         preorder(node.right);
     }
-    public void inorder(Node node){
+    public void inorder(TreeNode node){
         if(node==null){
             return;
         }
@@ -19,7 +19,7 @@ public class Traversal {
         System.out.println(node.val + " ");
         inorder(node.right);
     }
-    public void postorder(Node node){
+    public void postorder(TreeNode node){
         if(node==null){
             return;
         }

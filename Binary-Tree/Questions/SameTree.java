@@ -2,10 +2,10 @@
 //Problem Link- https://leetcode.com/problems/same-tree/description/
 package Questions;
 
-import Implementation.Node;
+import Implementation.TreeNode;
 
 public class SameTree {
-    public boolean isSameTree(Node p, Node q) {
+    public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p==null && q==null){
             return true;
         }

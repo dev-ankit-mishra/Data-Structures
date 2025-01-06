@@ -3,15 +3,15 @@
 
 package Questions;
 
-import Implementation.Node;
+import Implementation.TreeNode;
 
 public class InvertTree {
 
-    public Node invertTree(Node root) {
+    public TreeNode invertTree(TreeNode root) {
         if (root == null) {
             return root;
         }
-        Node temp = root.left;
+        TreeNode temp = root.left;
         root.left = root.right;
         root.right = temp;
         invertTree(root.left);

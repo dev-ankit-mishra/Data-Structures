@@ -1,7 +1,7 @@
 package Implementation;
 
 public class Display {
-    public void display(Node node){
+    public void display(TreeNode node){
         if(node==null){
             return;
         }

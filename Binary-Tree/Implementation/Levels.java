@@ -1,7 +1,7 @@
 package Implementation;
 
 public class Levels {
-    public int lev(Node node){
+    public int lev(TreeNode node){
         if(node==null){
             return 0;
         }

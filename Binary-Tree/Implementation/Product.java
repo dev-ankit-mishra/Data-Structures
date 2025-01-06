@@ -1,7 +1,7 @@
 package Implementation;
 
 public class Product {
-    public int product(Node node){
+    public int product(TreeNode node){
         if(node==null){
             return 1;
         }

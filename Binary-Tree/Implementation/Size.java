@@ -1,7 +1,7 @@
 package Implementation;
 
 public class Size {
-    public int size(Node node){
+    public int size(TreeNode node){
         if(node==null){
             return 0;
         }
