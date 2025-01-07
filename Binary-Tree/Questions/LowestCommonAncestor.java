@@ -7,10 +7,10 @@ import Implementation.TreeNode;
 public class LowestCommonAncestor {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (p == root || q == root) return root;
-        boolean pinlst = exists(root.left, p);
-        boolean qinlst = exists(root.left, q);
-        if (pinlst && qinlst) return lowestCommonAncestor(root.left, p, q);
-        if (!pinlst && !qinlst) return lowestCommonAncestor(root.right, p, q);
+        boolean pInLst = exists(root.left, p);
+        boolean qInLst = exists(root.left, q);
+        if (pInLst && qInLst) return lowestCommonAncestor(root.left, p, q);
+        if (!pInLst && !qInLst) return lowestCommonAncestor(root.right, p, q);
         else
             return root;
     }
