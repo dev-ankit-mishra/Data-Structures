@@ -2,7 +2,7 @@
 
 import java.util.PriorityQueue;
 
-public class LargestKthElement {
+public class KthLargestElement {
     public int findKthLargest(int[] nums, int k) {
         PriorityQueue<Integer> pq=new PriorityQueue<>();
 
@@ -12,7 +12,7 @@ public class LargestKthElement {
                 pq.remove();
             }
         }
-        return pq.peek();
+        return pq.remove();
 
     }
 }
