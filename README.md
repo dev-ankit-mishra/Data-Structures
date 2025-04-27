@@ -26,4 +26,4 @@ A collection of solved problems and implementations based on fundamental **data 
    - Code implementation in your java language .
 2. **Run Locally**:
    ```bash
-   git clone https://github.com/dev-ankit-mishra/data-structures.git
+   git clone https://github.com/dev-ankit-mishra/Data-Structures.git
