@@ -37,7 +37,7 @@ All solutions are written in Java and include optimized code, and intuitive logi
 ## 📬 Contact
 
 📧 contact@ankitmishra.pro 
-🔗 [LinkedIn](https://www.linkedin.com/in/ankitmishra-pro)  
+🔗 [LinkedIn](https://www.linkedin.com/in/dev-ankit-mishra)  
 🌐 [Portfolio](https://ankitmishra.pro)
 
 ---
